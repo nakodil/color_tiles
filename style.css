@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+.main_container {
+	display: flex;
+	height: 100vh;
+}
+
+.main_column {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: start;
+}
+
+.main_tile {
+	width: 1vw;
+	height: 1vw;
+	border: 0;
+}
